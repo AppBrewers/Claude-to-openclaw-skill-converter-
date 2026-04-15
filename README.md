@@ -1,14 +1,20 @@
 # Claude → OpenClaw Skill Converter
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![OpenClaw](https://img.shields.io/badge/Built%20for-OpenClaw-blue)](https://openclaw.ai)
-[![Claude Code](https://img.shields.io/badge/Works%20with-Claude%20Code-green)](https://claude.ai/code)
+[![Works with OpenClaw](https://img.shields.io/badge/Works%20with-OpenClaw-blue.svg)](https://openclaw.ai)
+[![Built for OpenClaw](https://img.shields.io/badge/Built%20for-OpenClaw-6B4C9A.svg)](https://openclaw.ai)
+[![OpenClaw Compatible](https://img.shields.io/badge/OpenClaw-Compatible-success.svg)](https://openclaw.ai)
+[![Claude Code](https://img.shields.io/badge/Works%20with-Claude%20Code-green.svg)](https://claude.ai/code)
 
-> **Never lose a skill again.** Convert Claude Code skills to OpenClaw AgentSkills format with automatic logging and documentation.
+> **The official bridge from Claude Code to OpenClaw.** Convert your skills and never lose work again.
+
+**✅ Works with OpenClaw** — Native AgentSkill format output  
+**✅ Built for OpenClaw** — Follows OpenClaw best practices  
+**✅ OpenClaw Compatible** — Ready for ClawHub publishing  
 
 ---
 
-## 🎯 What It Does
+## 🎯 What It Does (Works with OpenClaw)
 
 ```
 Claude Skill (your-project/skill/)
@@ -26,7 +32,7 @@ OpenClaw AgentSkill (workspace/skills/your-skill/)
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Get Started with OpenClaw)
 
 ### One-Line Install
 
@@ -35,7 +41,7 @@ git clone https://github.com/AppBrewers/claude-to-openclaw-skill-converter.git
 bash claude-to-openclaw-converter/install.sh
 ```
 
-### Convert Your First Skill
+### Convert Your First Skill for OpenClaw
 
 ```bash
 # Convert a Claude skill to OpenClaw format
@@ -44,7 +50,7 @@ bash claude-to-openclaw-converter/scripts/convert-claude-skill.sh \
   /path/to/openclaw/workspace/skills/
 ```
 
-**Done.** Your skill is now in OpenClaw format with:
+**Done.** Your skill is now in OpenClaw format and ready to use!
 - ✅ Proper SKILL.md frontmatter
 - ✅ Executable scripts
 - ✅ Organized references
